@@ -1,5 +1,13 @@
 # newfold-postcss-plugins-preset
 
+PostCSS Plugins Preset including:
+* Autoprefixing
+* Media-query combination
+* CSS Nesting
+* @extend support
+* Automatically add will-change for transitions
+* Use `cssnano` `when process.env.NODE_ENV === 'production'`
+
 # Usage
 
 ## Add an `.npmrc` file to your project
