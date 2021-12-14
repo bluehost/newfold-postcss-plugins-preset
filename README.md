@@ -28,12 +28,6 @@ $ npm login --scope=@bluehost --registry=https://npm.pkg.github.com
 > Email: PUBLIC-EMAIL-ADDRESS
 ```
 
-## Add an `.npmrc` file to your project
-
-```
-@bluehost:registry=https://npm.pkg.github.com
-```
-
 ## Install package using npm
 
 ```
