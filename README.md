@@ -10,6 +10,24 @@ PostCSS Plugins Preset including:
 
 # Usage
 
+## On First Run: Authenticate your machine with GitHub Packages
+
+This can be done via modifying your `.npmrc` per-project, or ideally logging in once for your machine.
+
+You will need a PAT with:
+* `repo`
+* `read:packages`
+
+_NOTE: `--scope` is important to keep npm as your default registry. This only looks for `@bluehost/*` packages on GitHub._
+
+```bash
+$ npm login --scope=@bluehost --registry=https://npm.pkg.github.com
+
+> Username: USERNAME
+> Password: TOKEN
+> Email: PUBLIC-EMAIL-ADDRESS
+```
+
 ## Add an `.npmrc` file to your project
 
 ```
