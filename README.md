@@ -6,7 +6,7 @@ PostCSS Plugins Preset including:
 * CSS Nesting
 * @extend support
 * Automatically add will-change for transitions
-* Use `cssnano` `when process.env.NODE_ENV === 'production'`
+* Use `cssnano` when `process.env.NODE_ENV === 'production'`
 
 # Usage
 
