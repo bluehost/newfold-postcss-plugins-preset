@@ -1,0 +1,32 @@
+{
+  "name": "newfold-postcss-plugins-preset",
+  "version": "1.0.0",
+  "description": "postcss plugins preset for Newfold Digital codebases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluehost/newfold-postcss-plugins-preset.git"
+  },
+  "keywords": [
+    "postcss",
+    "wp-scripts"
+  ],
+  "author": "Dave Ryan <dryanpress@chat.wordpress.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluehost/newfold-postcss-plugins-preset/issues"
+  },
+  "homepage": "https://github.com/bluehost/newfold-postcss-plugins-preset#readme",
+  "dependencies": {
+    "@wordpress/postcss-plugins-preset": "^3.2.5",
+    "cssnano": "^5.0.12",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-extend-rule": "^3.0.0",
+    "postcss-media-variables": "^2.0.1",
+    "postcss-nested": "^5.0.6",
+    "postcss-will-change-transition": "^1.2.0"
+  }
+}
