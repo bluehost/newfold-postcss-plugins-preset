@@ -1,7 +1,7 @@
 {
-  "name": "newfold-postcss-plugins-preset",
+  "name": "@bluehost/newfold-postcss-plugins-preset",
   "version": "1.0.0",
-  "description": "postcss plugins preset for Newfold Digital codebases.",
+  "description": "PostCSS plugins preset for Newfold Digital codebases.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
